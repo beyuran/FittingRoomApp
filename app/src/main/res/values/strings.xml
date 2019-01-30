@@ -1,0 +1,17 @@
+<resources>
+    <string name="info_size">YOUR SIZE</string>
+    <string name="app_name_rus">виртуальная примерочная</string>
+    <string name="app_name">Fitting Room</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test_camera">TestCamera</string>
+    <string name="title_activity_footview">footview</string>
+    <string name="title_activity_view3d">View3d</string>
+    <string name="title_activity_foot">Foot</string>
+    <string name="title_activity_foot_top">FootTop</string>
+    <string name="title_activity_shoe_list">ShoeList</string>
+    <string name="side_image">Take Side View Photo</string>
+    <string name="top_image">Take Top View Photo</string>
+    <string name="title_activity_info">Info</string>
+
+    <string name="instructions">- Place your foot on A4 paper sheet\n- Ensure that sheet is located inside the black frame on camera view\n- Tap on screen</string>
+</resources>

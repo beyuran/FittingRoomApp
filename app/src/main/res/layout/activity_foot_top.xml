@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+        android:background="@drawable/ecco_top">
+
+    <Space
+        android:layout_width="25sp"
+        android:layout_height="25sp" />
+
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/top_image" />
+
+    <Space
+        android:layout_width="25sp"
+        android:layout_height="25sp" />
+
+    <ImageView
+        android:id="@+id/viewImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foot_top"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.8" />
+
+    <Space
+        android:layout_width="25sp"
+        android:layout_height="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/instructions"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton android:id="@+id/btnSelectPhoto"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" />
+
+        <android.support.design.widget.FloatingActionButton android:id="@+id/btnTopDone"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_next"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:onClick="topDone"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <android.support.design.widget.FloatingActionButton android:id="@+id/btnTopBack"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_previous"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:onClick="topBack"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <!--Button
+        android:id="@+id/btnTopDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="topDone"
+        android:text="Done" /-->
+
+</LinearLayout>
